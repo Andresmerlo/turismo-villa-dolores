@@ -6,6 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Galería - Villa Dolores Turismo</title>
+    <style>
+        /* Estilos para la página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        /* Estilos para el encabezado */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        /* Estilos para la galería de imágenes */
+        .main-content {
+            padding: 20px;
+            margin: auto;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+            justify-items: center;
+        }
+
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 
 <body>
@@ -21,14 +65,14 @@
         </nav>
     </header>
 
-    <section class="main-content">
+    <main class="main-content">
         <h2>Explora la Belleza de Villa Dolores en Imágenes</h2>
         <div class="image-gallery">
             <img src="galeria1.jpg" alt="Imagen 1">
             <img src="galeria2.jpg" alt="Imagen 2">
             <img src="galeria3.jpg" alt="Imagen 3">
         </div>
-    </section>
+    </main>
 
     <footer>
         <p>&copy; 2023 Villa Dolores Turismo</p>
